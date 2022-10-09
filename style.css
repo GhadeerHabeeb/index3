@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arimo', sans-serif;;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:  #1bb296;
+}
+.wrapper
+{
+    width: 450px;
+    position: relative;
+   
+    background: #ccc;
+    border-radius: 3px;
+}
+.wrapper h1
+{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 30px;
+    border-bottom: 1px solid #fff;
+}
+.wrapper .content
+{
+    margin: 25px 25px 35px;
+    
+}
+.content .inputs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputs input
+{
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    font-size: 24px;
+    color: #1bb;
+    text-align: center;
+    background: none;
+    border-radius: 5px;
+    text-decoration: uppercase;
+    border: 1px solid #b5b5b5;
+}
+
+.content .typing-input
+{
+    opacity: 0;
+    position: absolute;
+    z-index: -999;
+}
+.inputs input:first-child{
+ margin-left: 0px;
+}
+.content .details
+{
+    margin: 20px 0 25px;
+}
+.details p
+{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.content .reset-btn
+{
+    width: 100%;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color:#fff;
+    background: #1bb296;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+
+.wrapper .svg
+{
+    width:200px;
+    position: absolute;
+    height: 400px;
+    pointer-events:none;
+     
+   
+}
